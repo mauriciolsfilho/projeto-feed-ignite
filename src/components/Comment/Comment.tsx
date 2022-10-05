@@ -52,12 +52,16 @@ export function Comment({ comment, onDelete }: CommentDetailsProps) {
 
   return (
     <div className={styles.comment}>
-      <Avatar size="sm" imageUrl={comment.author.imageUrl} />
+      <Avatar size="sm" src={comment.author.imageUrl} />
       <div className={styles.box}>
         <div className={styles.content}>
           <header className={styles.header}>
             <div className={styles.details}>
-              <strong>{comment.author.name}</strong>
+              <div className={styles.authorDetails}>
+                <strong>{comment.author.name}</strong>
+                &nbsp; | &nbsp;
+                <span>{comment.author.description}</span>
+              </div>
               <time
                 title={formattedDate}
                 dateTime={new Date(comment.publishedAt).toISOString()}

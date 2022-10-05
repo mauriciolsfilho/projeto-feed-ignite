@@ -50,7 +50,7 @@ export function Post({
     <article className={styles.post}>
       <header className={styles.postHeader}>
         <div className={styles.author}>
-          <Avatar hasBorder imageUrl={author.imageUrl} />
+          <Avatar hasBorder src={author.imageUrl} />
           <div className={styles.authorInfo}>
             <strong>{author.name}</strong>
             <span>{author.description}</span>

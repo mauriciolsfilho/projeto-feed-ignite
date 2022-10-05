@@ -1,7 +1,7 @@
+import { ImgHTMLAttributes } from "react";
 import styles from "./Avatar.module.css";
 
-interface AvatarProps {
-  imageUrl: string;
+interface AvatarProps extends ImgHTMLAttributes<HTMLImageElement> {
   size?: "sm" | "md" | "lg";
   hasBorder?: boolean;
 }
@@ -13,9 +13,10 @@ interface AvatarProps {
  * @returns
  */
 export function Avatar({
-  imageUrl,
+  src,
   size = "md",
   hasBorder = false,
+  ...props
 }: AvatarProps) {
   /**
    * Retorna a classe CSS para o avatar do usuario
@@ -30,5 +31,5 @@ export function Avatar({
     return className;
   }
 
-  return <img className={getClassName()} src={imageUrl} />;
+  return <img className={getClassName()} src={src} {...props} />;
 }

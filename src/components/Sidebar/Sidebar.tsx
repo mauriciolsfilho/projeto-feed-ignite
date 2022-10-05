@@ -18,7 +18,7 @@ export function Sidebar({
     <aside className={styles.sidebar}>
       <img className={styles.cover} src={coverImageUrl} />
       <div className={styles.profile}>
-        <Avatar size="lg" imageUrl={imageUrl} hasBorder />
+        <Avatar size="lg" src={imageUrl} hasBorder />
         <strong>{name}</strong>
         <span>{description}</span>
       </div>
