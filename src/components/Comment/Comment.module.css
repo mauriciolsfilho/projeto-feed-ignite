@@ -1,0 +1,84 @@
+.comment {
+  gap: 1rem;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.box {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 4px;
+}
+
+.header button:hover {
+  color: var(--red-500);
+}
+
+.details strong {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.details time {
+  display: block;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--gray-400);
+}
+
+.content {
+  background: var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.content p {
+  margin-top: 1rem;
+  color: var(--gray-300);
+}
+
+.box footer {
+  margin-top: 1rem;
+}
+
+.box footer button {
+  border: 0;
+  display: flex;
+  cursor: pointer;
+  color: var(--gray-400);
+  background: transparent;
+
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.box footer button svg:hover {
+  color: var(--green-300);
+}
+
+
+.box footer button svg {
+  margin-right: .5rem;
+}
+
+
+.box footer button span::before {
+  content: "\2022";
+  font-weight: bold;
+  padding: 0 .25rem;
+}

@@ -1,0 +1,71 @@
+
+.form {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gray-600);
+}
+
+.form > strong {
+  line-height: 1.6;
+  color: var(--gray-100);
+}
+
+.form textarea {
+  width: 100%;
+  border: 0;
+  resize: none;
+  height: 6rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+  border-radius: 8px;
+  color: var(--gray-100);
+  background: var(--gray-900);
+}
+
+.form button[type=submit] {
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border: 0;
+  border-radius: 8px;
+  color: var(--white);
+}
+
+.buttonSubmit {
+  cursor: pointer;
+  background: var(--green-500);
+  transition: background 0.2s;
+}
+
+.buttonSubmit:hover {
+  background: var(--green-300);
+}
+
+.buttonError {
+  opacity: .5;
+  cursor: no-drop;
+  background: var(--red-500);
+  transition: background 0.2s;
+}
+
+.commentFieldError:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--red-500);
+}
+
+.messageError {
+  font-size: 80%;
+  padding: 0 .25rem;
+  color: var(--red-500);
+}
+
+.form:focus-within footer {
+  visibility: visible;
+  max-height: none;  
+}
+
+.form footer {
+  visibility: hidden;
+  max-height: 0;
+}

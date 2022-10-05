@@ -1,0 +1,185 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": {
+        "name": "Maurício Linhares",
+        "email": "mauricio_1souza@outlook.com",
+        "description": "Web developer",
+        "imageUrl": "https://github.com/mauriciolsfilho.png"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Fala galeraa 👋"
+        },
+        {
+          "type": "paragraph",
+          "content": "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat."
+        },
+        {
+          "type": "paragraph",
+          "content": "O nome do projeto é DoctorCare 🚀"
+        },
+        {
+          "type": "link",
+          "content": "jane.design/doctorcare",
+          "href": "https://rocketseat.com.br"
+        }
+      ],
+      "publishedAt": "2022-10-04 16:01:00"
+    },
+    {
+      "id": 2,
+      "author": {
+        "name": "Diego Fernandes",
+        "email": "diego3g@gmail.com",
+        "description": "CTO @Rocketseat",
+        "imageUrl": "https://github.com/diego3g.png"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Fala deev 👋"
+        },
+        {
+          "type": "paragraph",
+          "content": "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat."
+        },
+        {
+          "type": "paragraph",
+          "content": "O nome do projeto é DoctorCare 🚀"
+        },
+        {
+          "type": "link",
+          "content": "jane.design/doctorcare",
+          "href": "https://rocketseat.com.br"
+        }
+      ],
+      "publishedAt": "2022-10-03 07:41:00"
+    },
+    {
+      "id": 3,
+      "author": {
+        "name": "Mayk Brito",
+        "email": "mayk@gmail.com",
+        "description": "Educator @Rocketseat",
+        "imageUrl": "https://github.com/maykbrito.png"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Fala deev 👋. Aqui é o Maykão"
+        },
+        {
+          "type": "paragraph",
+          "content": "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat."
+        },
+        {
+          "type": "paragraph",
+          "content": "O nome do projeto é DoctorCare 🚀"
+        },
+        {
+          "type": "link",
+          "content": "jane.design/doctorcare",
+          "href": "https://rocketseat.com.br"
+        }
+      ],
+      "publishedAt": "2022-10-04 07:41:00"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "author": {
+        "name": "Mayk Brito",
+        "email": "mayk@gmail.com",
+        "description": "Educator @Rocketseat",
+        "imageUrl": "https://github.com/maykbrito.png"
+      },
+      "publishedAt": "2022-10-04 07:41:00",
+      "postId": 1,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Ótimo trabalho. Parabéns 👏👏"
+        }
+      ],
+      "likes": 20
+    },
+    {
+      "id": 2,
+      "author": {
+        "name": "Diego Fernandes",
+        "email": "diego3g@gmail.com",
+        "description": "CTO @Rocketseat",
+        "imageUrl": "https://github.com/diego3g.png"
+      },
+      "publishedAt": "2022-10-04 07:41:00",
+      "postId": 1,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Shoow 👏👏"
+        }
+      ],
+      "likes": 11
+    },
+    {
+      "postId": 3,
+      "author": {
+        "name": "Maurício Linhares",
+        "description": "Web developer",
+        "email": "mauricio_1souza@outlook.com",
+        "imageUrl": "https://github.com/mauriciolsfilho.png",
+        "coverImageUrl": "https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+      },
+      "publishedAt": "Wed Oct 05 2022 09:25:07 GMT-0300 (Horário Padrão de Brasília)",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Sensacional, Maykão!"
+        }
+      ],
+      "likes": 0,
+      "id": 4
+    },
+    {
+      "postId": 2,
+      "author": {
+        "name": "Maurício Linhares",
+        "description": "Web developer",
+        "email": "mauricio_1souza@outlook.com",
+        "imageUrl": "https://github.com/mauriciolsfilho.png",
+        "coverImageUrl": "https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+      },
+      "publishedAt": "Wed Oct 05 2022 09:25:31 GMT-0300 (Horário Padrão de Brasília)",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Incrível, Diegoo ✨"
+        }
+      ],
+      "likes": 0,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "author": {
+        "name": "Mayk Brito",
+        "email": "mayk@gmail.com",
+        "description": "Educator @Rocketseat",
+        "imageUrl": "https://github.com/maykbrito.png"
+      },
+      "publishedAt": "2022-10-04 07:41:00",
+      "postId": 2,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Ótimo trabalho. Parabéns 👏👏"
+        }
+      ],
+      "likes": 20
+    }
+  ]
+}
