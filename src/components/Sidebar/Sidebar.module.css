@@ -1,4 +1,6 @@
 .sidebar {
+  top: 7.5rem;
+  position: sticky;
   background: var(--gray-800);
   border-radius: 8px;
   overflow: hidden;
@@ -60,4 +62,11 @@
 .sidebar footer button:hover {
   background: var(--green-500);
   color: var(--white);
+}
+
+@media (max-width: 760px) {
+  .sidebar {
+    position: inherit;
+    top: 0;
+  }
 }
